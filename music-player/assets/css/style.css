@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(21, 21, 32);
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    padding: 10px 25px;
+    margin-bottom: 5;
+    position: relative;
+    z-index: 10;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+}
+
+.header img {
+    height: 70px;
+    width: 70px;
+}
+
+.song-player {
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+    margin-left: 37%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px ;
+    border-radius: 20px;
+}
+
+.song-player img {
+    height: 300px;
+    width: 300px;
+}
+
+.song-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5;
+}
+
+.song-name i {
+    margin: 0;
+    padding: 0;
+}
+
+.song-name h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    margin: 20px;
+    padding-left: 17%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.buttons img{
+    height: 40px;
+    width: 40px;
+}
+
+.buttons button{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border:none;
+}
+
+.buttons button img:hover {
+    background-color: #747272;
+    box-shadow: 3px 3px 3px;
+}
+
+.buttons button img {
+    border-radius: 5px;
+    background-color: #d4d4d4;
+    box-shadow: 2px 2px 5px;
+}
+
+progress {
+    width: 300px;
+    height: 15px;
+    border-radius: px;
+    background-color: blue;
+}
+
